@@ -1,19 +1,17 @@
 // ignore_for_file: unused_local_variable
 
-import 'markclass.dart';
-import 'mikeclass.dart';
-import 'laikaclass.dart';
-import 'empressclass.dart';
+import 'yusoyaclass.dart';
+import 'batisclass.dart';
+import 'bolondroclass.dart';
+import 'malinaoclass.dart';
 
 void main() {
-  var mark = Mark('Mark Angelo Arnoco', 'Calumpang, Naval, Biliran');
-  mark.describe();
-  var mikeclass = Mike('Mikee Defensor', 'Basak, Atipolo');
-  mikeclass.describe();
-  var laikaclass =
-      Laika('Laika Dela Cruz Salomon', 'Caraycaray, Naval, Biliran');
-  laikaclass.describe();
-  var empressclass =
-      Empress('Empress Joyce Monton', 'Sangalang Biliran, Biliran');
-  empressclass.describe();
+  var yusoyaclass = Yusoya('Francine Lee Yusoya', '20');
+  yusoyaclass.describe();
+  var batisclass = Batis('Yan Batis Pelande', '20');
+  batisclass.describe();
+  var bolondroclass = Bolondro('Jim Bolondro', '21');
+  bolondroclass.describe();
+  var malinaoclass = Malinao('Baby Jane Mujar Malinao', '21');
+  malinaoclass.describe();
 }
